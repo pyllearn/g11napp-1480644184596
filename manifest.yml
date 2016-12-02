@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: g11napp
+  host: g11napp
+  disk_quota: 1024M
+  services:
+  - Mobile Client Access-hd
+  - Push Notifications-8o
+  - MongoLab-g11n-new
+  - availability-monitoring-auto
